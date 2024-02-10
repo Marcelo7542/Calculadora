@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#calculadora {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(20, 20, 20);
+  overflow: hidden;
+  border-radius: 15px;
+  max-width: 450px;
+}
+#tela {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  font-size: 3rem;
+  background-color: gray;
+  color: white;
+}
+#botoes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px;
+}
+button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: rgb(105, 105, 105);
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.4;
+}
+button:hover {
+  opacity: 0.4;
+}
+.numero {
+  background-color: blue;
+}
+#C {
+  background-color: orangered;
+  grid-column: 4;
+}
+.operacao {
+  background-color: white;
+  color: black;
+}
